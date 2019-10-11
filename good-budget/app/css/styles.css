@@ -1,0 +1,88 @@
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
+}
+body {
+	font-family: Calibri, Arial, sans-serif;
+	width:100%;
+	
+}
+.container {
+    min-height:100%;
+    position:relative;
+    width: 90%;
+}
+#content {
+    padding-bottom:50px;
+}
+#footer {
+    height:50px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+.fullbudgetbar {
+    border-width: 4px;
+    border-style: solid;
+    height: 24px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.remainingbudgetbar {
+    height: 16px;
+    background-color: green;
+    margin: auto;
+}
+.total-budget {
+    width: 67%;
+    margin: auto;
+    font-size: 1.67em;
+    text-align: center;
+}
+.main {
+    margin-top: 25px;
+}
+.planned, .spent, .remaining {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.panel-info .panel-body {
+    font-size: 1.33em;
+    padding-top: 0;
+}
+.expense_form {
+    margin-top:10px;
+    padding: 0 10px 0 0;
+    
+}
+
+.table {
+    margin-top: 10px;
+}
+.btn {
+    margin-bottom: 10px;
+}
+.panel-heading {
+    height:125px;
+}
+.panel {
+    width: 100%;
+    display: inline-block;
+}
+@media all  and (max-width: 1550px) and (min-width: 1000px) {
+    .main {
+    column-count: 2;
+}
+}
+@media all  and (max-width: 2000px) and (min-width: 1550px) {
+    .main {
+    column-count: 3;
+}
+}
+@media all  and (max-width: 2500px) and (min-width: 2000px) {
+    .main {
+    column-count: 4;
+}
+}
